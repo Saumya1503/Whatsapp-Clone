@@ -1,0 +1,31 @@
+.sidebarChat{
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.sidebarChat:hover{
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(173, 198, 245);
+    border-bottom: 1px solid rgb(173, 198, 245);
+    font-size: large;
+}
+
+.sidebarChat__info > h4{
+    padding: 0px;
+    margin: 0px;
+}
+.sidebarChat__info > p{
+    padding: 0px;
+    margin: 0px;
+}
+.sidebarChat__info{
+    padding-left: 20px;
+}
+.block_user{
+    background-color: red;
+    border-radius: 10px;
+}

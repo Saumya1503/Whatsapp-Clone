@@ -1,0 +1,41 @@
+
+POST http://localhost:5000/user/addChatData HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoic2oiLCJpYXQiOjE2MzE5NTYwNjMsImV4cCI6MTYzMTk1OTY2M30.CyUI8DT6S5J8I_Z-BUlKqCsYxfYqqbtpUwh2f8oSotw
+
+
+{
+    "chats":[{ "chat_id":101, "sent_by":"aj", "sent_to":"sj", "msg":"Hello How Are You", "date":"Date", "is_new":false},
+    { "chat_id":102, "sent_by":"aj", "sent_to":"sj", "msg":"Hello I Am Fine", "date":"Date", "is_new":false},
+    { "chat_id":103, "sent_by":"sj", "sent_to":"aj", "msg":"Hello How ou", "date":"Date", "is_new":false},
+    { "chat_id":101, "sent_by":"sj", "sent_to":"aj", "msg":"Hello How Are You", "date":"Date", "is_new":false},
+    { "chat_id":102, "sent_by":"aj", "sent_to":"sj", "msg":"Hello I Am Fine", "date":"Date", "is_new":false},
+    { "chat_id":103, "sent_by":"aj", "sent_to":"sj", "msg":"Hello How ou", "date":"Date", "is_new":true} ]
+}
+
+
+###
+
+
+POST http://localhost:5000/user/getChatData HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoic2oiLCJpYXQiOjE2MzE5NTYwNjMsImV4cCI6MTYzMTk1OTY2M30.CyUI8DT6S5J8I_Z-BUlKqCsYxfYqqbtpUwh2f8oSotw
+
+
+
+{
+    "user_id":"sj",
+    "friend_id":"aj"
+}
+
+
+###
+
+POST http://localhost:5000/user/getUserData HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYiIsImlhdCI6MTYzMTk0NTAyOSwiZXhwIjoxNjMyMjQ1MDI5fQ.HJj8__GguFrhuQy--A17uraMq5LuYPbu90W_4yMecLQ
+
+
+{
+    "user_id":"a"
+}

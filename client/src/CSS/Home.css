@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.app{
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: hsl(207, 84%, 80%);
+}
+.app__body{
+    display: flex;
+    background-color: #ededed;
+    margin-top: -50px;
+    height: 95vh;
+    margin-top: 2px;
+    width: 160vh;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+}

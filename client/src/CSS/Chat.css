@@ -1,0 +1,110 @@
+/**/
+.chat{
+    display: flex;
+    flex-direction: column;
+    flex: 0.70;
+}
+
+/*efwregfwrgr*/
+.chat__header{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+    color: white;
+    max-height: 20px;
+    background-color: rgb(135, 172, 241);
+}
+.chat__info > h3{
+    padding: 0px;
+    margin: 0px;
+}
+.chat__info > p{
+    padding: 0px;
+    margin: 0px;
+}
+
+.chat__info{
+    flex: 1;
+    padding-left: 20px;
+}
+
+/*efwregfwrgr*/
+.chat__body{
+    flex: 1;
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.deviantart.com%2Fx-ama%2Fart%2FSuper-Hero-Whatsapp-Background-510193115&psig=AOvVaw03NGSKuZJnnFUepVUFmDdP&ust=1622305593482000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJiG-LXl7PACFQAAAAAdAAAAABAD");
+    background-color:rgb(173, 198, 245);
+    background-position: center;
+    padding: 10px;
+    overflow: auto;
+}
+
+.chat__message{
+    color: white;
+    width: fit-content;
+    padding: 12px;
+    /* padding-top: 5px; */
+    margin: 10px;
+    border-radius: 10px;
+    font-weight: lighter;
+    font-size: 17px;
+    max-width: 60%;
+}
+
+.sender_message{
+    background-color: rgb(135, 172, 241);
+    margin-left: auto;
+    color: white;
+    /* border: 2px solid white; */
+}
+.receiver_message{
+    background-color: white;
+    color: black;
+    margin-right: auto;
+    /* border: 2px solid blue; */
+}
+
+.chat__message .chat__name{
+    font-weight:bolder;
+    padding-top: 0px;
+    padding-bottom: 400px;
+    font-size: 12px;
+    margin-bottom: 100px;
+    color: black;
+}
+.chat__message .chat__time{
+    padding-left: 15px;
+    font-size: 8px;
+}
+
+/*efwregfwrgr*/
+.chat__bottom{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(173, 198, 245);
+    padding-bottom: 15px;
+}
+.chat__bottomCenter > form{
+    display: flex;
+    flex-direction: column;
+    flex: 0.98;
+    margin: 10px;
+}
+.chat__bottomCenter{
+    display: flex;
+    flex-direction: column;
+    flex: 0.98;
+    margin: 10px;
+}
+.chat__bottomCenter #msg_text{
+    margin: 8px;
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    outline-width: 0px;
+    margin-left: 0px;
+}
+.chat__bottomLeft{
+    margin-left: 10px;
+}
